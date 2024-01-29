@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+   
+}
+.main-heading{
+    margin: 0px 50px 0px  0px;
+   
+    padding: 8px;
+    display: flex;
+}
+
+
+.main1{
+    max-width: 70vw;
+    height: auto;
+    background-color: rgba(36, 12, 60, 0.719);
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    box-sizing: content-box;
+    border-radius: 20px;
+    /* justify-content: center; */
+}
+.container2{
+    background-color: rgba(3, 3, 3, 0.736);
+    padding: 20px;
+    max-width: 100%;
+    margin: auto;
+}
+.card{
+    max-width: 250px;
+    height: fit-content;
+    margin: 20px auto;
+    justify-content: center;
+    padding-bottom: 20px;
+    background-color: rgb(128, 114, 94);
+    /* border: 1px solid red; */
+    overflow: hidden;
+    box-shadow: rgba(251, 244, 244, 0.041) 0px 1px 3px 0px, rgba(231, 238, 238, 0.164) 0px 0px 0px 1px;
+    
+}
+
+.card img{
+    max-width: 250px;
+    box-sizing: content-box;
+}
+
+ h5{
+    font-size: 1rem;
+    color: rgb(19, 19, 20);
+    margin: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card-title{
+    font-size: 1.4rem;
+    color: #e5f910;
+    margin: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+.card-body{
+    font-size: 1.2rem;
+    color: aliceblue;
+    margin: 10px;
+    background-color: rgb(128, 114, 94);
+}
+
+.card-text{
+    font-size: 1.2rem;
+    color: aliceblue;
+    margin: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card a{
+    font-size: 1.2rem;
+    color: aliceblue;
+    margin: 10px;
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+.infoContainer{
+    /* background-image: linear-gradient(to right top, #ff0000, #ff0045, #fd0081, #ca00c3, #3700ff);*/
+    /* background: linear-gradient(142deg, rgba(255,50,223,1) 23%, rgba(50,88,236,1) 51%, rgba(247,50,50,1) 89%); */
+    background-color: rgba(94, 47, 138, 0.65); 
+     margin: auto 50px;
+     height: 80vh;
+     width: 80vw;
+     justify-content: space-evenly;
+     display: flex;
+     float: inherit;
+     border-radius: 8px;
+     transition: all 0.1s ease-in;
+     border-radius: 20px;
+    /* box-shadow: 0px 4px 8px #ff5100, 0.6px 20px 0 rgba(179, 76, 76, 0.19);*/
+ }
