@@ -87,6 +87,7 @@ html{
 .Hamburger{  /* for navigation bar*/
     /* display: inline; */
     position: fixed;
+    
     overflow: hidden;
     /* text-align: center; */
     /* align-items: center;  */
